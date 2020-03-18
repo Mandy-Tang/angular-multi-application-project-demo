@@ -19,6 +19,10 @@
       "dependences": [
         "dist/dependences/dependences",
         "dist/dependences"
+      ],
+      "child-feature": [
+        "dist/child-feature/child-feature",
+        "dist/child-feature"
       ]
     }
   },
