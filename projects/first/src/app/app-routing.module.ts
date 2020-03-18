@@ -10,7 +10,7 @@ const routes: Routes = [
   {
     path: 'child',
     loadChildren: () =>
-      import('./../../../child/src/app/app.module').then(m => m.AppModule)
+      import('../../../child-feature/src/lib/child-feature.module').then(m => m.ChildFeatureModule)
   }
 ];
 

@@ -3,9 +3,15 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'lib-child-feature',
   template: `
-    <p>
-      child-feature works!
-    </p>
+    <ul>
+      <li>
+        <a routerLink="./page-one">page one</a>
+      </li>
+      <li>
+        <a routerLink="./page-two">page two</a>
+      </li>
+    </ul>
+    <router-outlet></router-outlet>
   `,
   styles: []
 })
